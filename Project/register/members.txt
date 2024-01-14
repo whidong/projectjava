@@ -1,2 +1,4 @@
-admin/abcd/jasonadm/abcd/jason
-ada/sdf/sdf
+admin/abcd/jasonadm/
+ada/sdf/sdf/
+kaggle/sdf/sdfsf/
+test/sdfs/tester/

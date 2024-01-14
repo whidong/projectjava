@@ -212,7 +212,7 @@ public class programex {
                             if(!isOk) {
                             bw.write(nIdfield.getText() + "/");
                             bw.write(npassfield.getText() + "/");
-                            bw.write(name.getText() + "\r\n");
+                            bw.write(name.getText() + "/\r\n");
                             bw.close();
  
                             JOptionPane.showMessageDialog(null, "회원가입을 축하합니다.");
