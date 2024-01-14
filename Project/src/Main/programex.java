@@ -198,7 +198,7 @@ public class programex {
                 List<String> list = new ArrayList<String>(); //  주석 7 : 컬렉션 프레임워크 List
                 if(e.getSource() == btn3) {
                     while((s = br.readLine()) != null) {
-                    	String[] parts = s.split("/");
+                    	String[] parts = s.split("/"); // 주석 6 : 참조 타입 배열 
                         // 아이디 중복
                         list.addAll(Arrays.asList(parts));
                         for(int i = 0; i< list.size(); i+=3) {
