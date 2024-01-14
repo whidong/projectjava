@@ -76,7 +76,7 @@ public class programex {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		frame.setLocationRelativeTo(null);
-		ImagePanel loginpanel = new ImagePanel(new ImageIcon("./image/ui.png").getImage());
+		ImagePanel loginpanel = new ImagePanel(new ImageIcon("./image/ui.png").getImage()); // 주석 5 : 다형성
 		ImagePanel nextpn = new ImagePanel(new ImageIcon("./image/page.png").getImage());
 		ImagePanel rgpn = new ImagePanel(new ImageIcon("./image/page.png").getImage());
 		
